@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+header h1{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.addingsection{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.addingsection input{
+  padding: 0.8rem;
+  width: 40%;
+  outline: none;
+  border: none;
+  background-color: rgb(210, 208, 208);
+  font-size: 16px;
+}
+.addButton{
+  background-color: green;
+  color: white;
+  padding: 0.2rem 1.5rem;
+  border: none;
+}
+.resultSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Result{
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.outbox{
+  padding: 0.8rem;
+  border: solid 1px black;
+  width:40%;
+}
+.removeButton{
+  background-color: rgb(239, 48, 48);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border: none;
+}
